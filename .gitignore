@@ -110,3 +110,4 @@ assets/
 allure*/
 logs/
 scripts/release.sh
+release.sh

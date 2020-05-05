@@ -20,6 +20,7 @@ setup(
     },
     install_requires=requirements,
     long_description=readme,
+    long_description_content_type='text/markdown',
     author='okorolev',
     author_email='johnnyprobel@gmail.com',
     keywords=['pytest', 'ast', 'soft-asserts', 'asserts', 'testing', 'debug'],
@@ -29,4 +30,7 @@ setup(
         'Development Status :: 3 - Alpha',
     ],
     setup_requires=['pytest-runner'],
+    project_urls={
+        'Source': 'https://github.com/okorolev/pytest-soft-assertions',
+    },
 )

@@ -1,6 +1,5 @@
-from typing import Union
-
 from dataclasses import dataclass
+from typing import Union
 
 
 NOT_SET = object()

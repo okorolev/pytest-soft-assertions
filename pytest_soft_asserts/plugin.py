@@ -10,7 +10,7 @@ if typing.TYPE_CHECKING:
 
 def pytest_register_ast_transformer(ast_manager: 'ASTManager', config: 'Config'):
     if config.option.allow_soft_asserts:
-        ast_manager.add_transformer(AssertTransformer())  # type: ignore
+        ast_manager.add_transformer(AssertTransformer())
 
 
 def pytest_addoption(parser: 'Parser'):
